@@ -1,0 +1,850 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #41ad41;
+    color: black;
+}
+
+header h1 {
+    padding-top: 8px;
+}
+
+.top1 {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    font-family: sans-serif;
+    background-color: #370962;
+    height: 50px;
+    width: 1300px;
+    margin-left: 68px;
+    color: white;
+}
+
+.container {
+    width: 81rem;
+    height: 33rem;
+    background: url(/catogeries/images/654d4c9fe241c9a39104f1f1e3ede5e734e29f420df37.webp)no-repeat center center/cover;
+    margin-left: 70px;
+    text-align: center;
+    margin-top: 94px;
+}
+
+.container h2 {
+    padding-top: 24rem;
+    font-family: sans-serif;
+    margin-left: -418px;
+    width: 72rem;
+    font-size: 45px;
+    color: white;
+}
+
+.box button {
+    width: 12%;
+    height: 55px;
+    border: none;
+    float: left;
+    margin-left: 23px;
+    margin-top: 8px;
+    background-color: rgb(44, 143, 44);
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1%;
+    margin-left: 70px;
+}
+
+.box1 {
+    border: 1px solid #00000073;
+    padding: 50px;
+    padding-bottom: 5px;
+    width: 305px;
+}
+
+#box-1 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/58-RUGER\ REDHAWK-502-60206-1.avif)no-repeat center center/cover;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#box-2 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/58-SMITH\ &\ WESSON\ MODEL\ 29-3-AVD2215-1.avif)no-repeat center center/cover;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#box-3 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/58-SMITH\ &\ WESSON\ U.S.\ ARMY\ MODEL\ 1917\ D.A.\ 45-110578-1.avif)no-repeat center center/cover;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#box-4 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/58-WALTHER\ Q5\ MATCH\ SF-FDM1498-1.avif)no-repeat center center/cover;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+.box1 img {
+    float: left;
+    margin-top: -99px;
+    width: 112px;
+    margin-left: -11px;
+}
+
+#box-1:hover,
+#box-2:hover,
+#box-3:hover,
+#box-4:hover {
+    border: 1px solid rgb(46, 134, 46);
+}
+
+.box1 h3 {
+    color: #370962;
+    font-family: sans-serif;
+    float: left;
+    margin-top: -47px;
+    margin-left: -33px;
+}
+
+.box1 p {
+    font-family: sans-serif;
+    margin-top: -21px;
+    float: left;
+    margin-left: -31px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+h6 {
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.box1 h4 {
+    margin-top: 12px;
+    margin-left: -32px;
+    font-family: sans-serif;
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.top2 h2 {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #370962;
+    color: white;
+    width: 1300px;
+    margin-left: 68px;
+    height: 49px;
+    padding-top: 12px;
+}
+
+.container2 {
+    width: 81rem;
+    height: 33rem;
+    background: url(/catogeries/images/652e93497bf19a06a6153eefb655933129c8f17de33f6.webp)no-repeat center center/cover;
+    margin-left: 70px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.container2 h2 {
+    padding-top: 24rem;
+    font-family: sans-serif;
+    margin-left: -473px;
+    width: 72rem;
+    font-size: 45px;
+    color: white;
+}
+
+.box2 {
+    border: 1px solid #00000073;
+    padding: 50px;
+    width: 305px;
+    padding-bottom: 5px;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1%;
+    margin-left: 70px;
+}
+
+#card-1 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/636e5ee328db59df22e3864c933c743503f1e1af42963.avif)no-repeat center center/cover;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#card-2 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/60a27f26c1d566fa99700b3dcaebd3d1068783dbdc2e8.webp)no-repeat center;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#card-3 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/63fe794c6003043d91aba8b29f57f6222f9a853a76aa5.avif)no-repeat center;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#card-4 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/6065c8eb29ede25d9853835c65cb0d20e764d43952702.webp)no-repeat center;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+.box2 img {
+    float: left;
+    margin-top: -99px;
+    width: 112px;
+    margin-left: -11px;
+}
+
+.box2 h4 {
+    margin-top: 12px;
+    margin-left: -32px;
+    font-family: sans-serif;
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#card-1:hover,
+#card-2:hover,
+#card-3:hover,
+#card-4:hover {
+    border: 1px solid rgb(46, 134, 46);
+}
+
+.box2 h3 {
+    color: #370962;
+    font-family: sans-serif;
+    float: left;
+    margin-top: -47px;
+    margin-left: -33px;
+}
+
+.box2 p {
+    font-family: sans-serif;
+    margin-top: -21px;
+    float: left;
+    margin-left: -31px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.top3 h2 {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #370962;
+    color: white;
+    width: 1300px;
+    margin-left: 68px;
+    height: 49px;
+    padding-top: 12px;
+}
+
+.container4 {
+    width: 81rem;
+    height: 33rem;
+    background: url(/catogeries/images/654bb1f87545f1bf4aa218430e80026f6de1ee0031436.webp)no-repeat center center/cover;
+    margin-left: 70px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.container4 h2 {
+    padding-top: 24rem;
+    font-family: sans-serif;
+    margin-left: -428px;
+    width: 72rem;
+    font-size: 45px;
+    color: white;
+}
+
+.box3 {
+    border: 1px solid #00000073;
+    padding: 50px;
+    padding-bottom: 5px;
+    width: 305px;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1%;
+    margin-left: 70px;
+}
+
+#item-1 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/5fa1b6fa998fadb19d5a62d5532f1d74eed00f91fbc7a.webp)no-repeat center center/cover;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#item-2 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/6331e182611ddd3cd354658a0d9656f839671fd0d9f7c.avif)no-repeat center;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#item-3 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/58-IZHMASH\ SAIGA-12\ KUSHNAPUP-H09420142-1.webp)no-repeat center;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+#item-4 {
+    border: 1px solid black;
+    padding: 105px;
+    padding-left: 170px;
+    margin-left: -36px;
+    background: url(/catogeries/images/58-BENELLI\ SUPER\ SPORT-X016547-1.webp)no-repeat center;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+.box3 img {
+    float: left;
+    margin-top: -99px;
+    width: 112px;
+    margin-left: -11px;
+}
+
+.box3 h4 {
+    margin-top: 12px;
+    margin-left: -32px;
+    font-family: sans-serif;
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#item-1:hover,
+#item-2:hover,
+#item-3:hover,
+#item-4:hover {
+    border: 1px solid rgb(46, 134, 46);
+}
+
+.box3 h3 {
+    color: #370962;
+    font-family: sans-serif;
+    float: left;
+    margin-top: -47px;
+    margin-left: -33px;
+}
+
+.box3 p {
+    font-family: sans-serif;
+    margin-top: -21px;
+    float: left;
+    margin-left: -31px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.top4 h2 {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #370962;
+    color: white;
+    width: 1300px;
+    height: 49px;
+    padding-top: 12px;
+    margin-left: 68px;
+}
+
+.container6 {
+    width: 81rem;
+    height: 33rem;
+    background: url(/home/images/6556880a2790f49875d42bacbc935bf5db3f2cabe9965.webp)no-repeat center center/cover;
+    margin-left: 70px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.container6 h2 {
+    padding-top: 24rem;
+    font-family: sans-serif;
+    margin-left: -371px;
+    width: 72rem;
+    font-size: 45px;
+    color: white;
+}
+
+.container7 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1%;
+}
+
+.class {
+    border: none;
+    height: 530px;
+    width: 90%;
+    margin-left: 9%;
+
+}
+
+#id1 {
+    margin-left: 4rem;
+    background: url(/catogeries/images/60dcd2223970745aef89ae847538c9e53f5212a1918a8.webp)no-repeat center center/cover;
+}
+
+#id3 {
+    margin-left: -26px;
+    background: url(/catogeries/images/60ad9ff08566c0f8595345f4c8c4e1b1d4de078af7d75.webp)no-repeat center center/cover;
+}
+
+#id2 {
+    background: url(/catogeries/images/602ed877e970ede974c98a424316370cff17e615251d0.webp)no-repeat center center/cover;
+    margin-left: 18px;
+}
+
+#id4 {
+    margin-left: 9rem;
+    width: 115%;
+    background: url(/catogeries/images/60d37bdcb77fbefa5e86ff584d45cd6d6c9864728975d.webp)no-repeat center center/cover;
+}
+
+#id5 {
+    margin-left: 15rem;
+    width: 115%;
+    background: url(/catogeries/images/6084387951b3cc5613a2c698990d342c338d0a2d26ee6\ \(1\).jpeg)no-repeat center center/cover;
+}
+
+.container7 h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 27rem;
+    margin-top: 3rem;
+    width: 37rem;
+    color: #370962;
+}
+
+.class P {
+    color: white;
+    margin-left: 1rem;
+    margin-top: 25rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.class button {
+    background-color: #41ad41;
+    border: none;
+    margin-left: 1rem;
+    width: 30%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+footer {
+    background-color: #41ad41;
+    width: 100%;
+    height: 129px;
+    margin-top: -10px;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 7fr 4fr 1fr 3fr;
+}
+
+.boxf2 input {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1rem solid #000000;
+    padding: 8px 0rem;
+    margin-left: 135px;
+    MARGIN-TOP: 37PX;
+    FONT-SIZE: 18PX;
+    TEXT-ALIGN: center;
+}
+
+.boxf1 {
+    margin-top: 44px;
+    margin-left: 51px;
+}
+
+.boxf1 p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-right: 77px;
+}
+
+.boxf1 p2 {
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.boxf2 {
+    margin-left: -207px;
+}
+
+.boxf3 button {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    font-family: system-ui;
+    background-color: #631ea2;
+    border: none;
+    width: 92%;
+    height: 40px;
+    margin-top: 37px;
+    margin-left: -165px;
+}
+
+.boxf4 {
+    margin-top: 52px;
+}
+
+.boxf4 p3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: -133px;
+}
+
+.icon {
+    padding: 0px 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -22px;
+    font-size: 25px;
+}
+
+.arrowr {
+    margin-left: 54rem;
+    margin-top: 21px;
+    font-size: 29px;
+    border: 2px solid black;
+    width: 40px;
+    text-align: center;
+}
+
+.arrowl {
+    margin-left: 33rem;
+    margin-top: -32px;
+    font-size: 29px;
+    border: 2px solid black;
+    width: 40px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    margin-top: -25px;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+
+
+@media (max-width:1050px) {
+    header {
+        width: 83%;
+    }
+
+    .top1 {
+        width: 83%;
+        margin-left: 0px;
+    }
+
+    .top2 h2 {
+        width: 83%;
+        margin-left: 0px;
+    }
+
+    .top3 h2 {
+        width: 83%;
+        margin-left: 0px;
+    }
+
+    .top4 h2 {
+        width: 83%;
+        margin-left: 0px;
+    }
+
+    .container h2 {
+        padding-top: 16rem;
+    }
+
+    .container2 h2 {
+        padding-top: 16rem;
+    }
+
+    .container4 h2 {
+        padding-top: 16rem;
+    }
+
+    .container6 h2 {
+        padding-top: 16rem;
+    }
+
+    .container1 {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        width: 65%;
+    }
+
+    .container3 {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        width: 65%;
+    }
+
+    .container5 {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        width: 65%;
+    }
+
+    .container7 {
+        margin-left: 110px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        width: 50%;
+    }
+
+    #id2 {
+        margin-left: 64px;
+    }
+
+    #id3 {
+        margin-left: 64px;
+    }
+
+    #id4 {
+        margin-left: 4rem;
+        width: 90%;
+    }
+
+    #id5 {
+        margin-left: 4rem;
+        width: 90%;
+    }
+
+    .container {
+        width: 49rem;
+        margin-left: 18px;
+        height: 386px;
+    }
+
+    .container2 {
+        width: 49rem;
+        margin-left: 18px;
+        height: 386px;
+    }
+
+    .container4 {
+        width: 49rem;
+        margin-left: 18px;
+        height: 386px;
+    }
+
+    .container6 {
+        width: 49rem;
+        margin-left: 18px;
+        height: 386px;
+    }
+
+    .container7 h1 {
+        text-align: center;
+        font-family: sans-serif;
+        margin-left: 5px;
+        margin-top: 0rem;
+        width: 37rem;
+        color: #370962;
+    }
+
+    h6 {
+        font-weight: 700;
+        font-family: sans-serif;
+        font-size: 28px;
+        width: 27%;
+    }
+
+    .foot {
+        display: grid;
+        grid-template-columns: 7fr 4fr 1fr 3fr;
+        margin-top: 145px;
+        width: 100%;
+    }
+
+    footer {
+        background-color: #41ad41;
+        width: 80%;
+    }
+
+    .boxf3 button {
+        width: 92%;
+        height: 40px;
+        margin-top: 47px;
+        margin-left: 15px;
+    }
+
+    h5 {
+        width: 50%;
+    }
+
+    .boxf1 {
+        display: none;
+    }
+
+    .boxf2 input {
+        margin-left: 229px;
+        MARGIN-TOP: 47PX;
+    }
+
+    .boxf4 p3 {
+        display: none;
+    }
+
+    .arrowr {
+        margin-left: 40rem;
+    }
+
+    .icon {
+        padding: 0px 23px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        margin-left: 80px;
+        font-size: 25px;
+        width: 120%;
+    }
+}
+
+@media (max-width:1000px) {
+    header {
+        width: 84%;
+    }
+
+    .top1 {
+        width: 84%;
+        margin-left: 0px;
+    }
+
+    .container {
+        width: 40rem;
+        margin-left: 17px;
+        height: 380px;
+    }
+
+    .container1 {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        width: 80%;
+        margin-left: 2px;
+    }
+
+    .box1 img {
+        margin-left: 31px;
+    }
+
+    .box1 {
+        padding-bottom: 3px;
+        padding-right: 2px;
+        width: 255px;
+        height: 300px;
+    }
+
+    #box-1 {
+        padding: 97px;
+        background-size: 80%;
+    }
+
+    #box-2 {
+        padding: 97px;
+        background-size: 75%;
+    }
+
+    #box-3 {
+        padding: 97px;
+        background-size: 80%;
+    }
+
+    #box-4 {
+        padding: 97px;
+        background-size: 80%;
+    }
+
+    .box button {
+        width: 20%;
+        height: 45px;
+    }
+
+    h6 {
+        width: 35%;
+    }
+}
